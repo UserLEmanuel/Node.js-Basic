@@ -2,7 +2,6 @@ const express = require('express');
 
 const app = express();
 
-//register view eengine
 app.set('view engine','ejs');
 app.set('views','frontend');
 
